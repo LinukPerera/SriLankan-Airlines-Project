@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign_up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+
+.monitor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background: linear-gradient(to top, rgba(0,0,0,0.5)20%,rgba(0,0,0,0.5)50%), url('/public/images/1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.monitor h1 {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.monitor p {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.monitor-link {
+  color: #fff;
+  /*background-color: #000000; /* Button background color */
+  /*padding: 10px 20px;*/
+  border: 2px solid #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.monitor-link:hover {
+  background-color: #FFFFFF; /* Hover effect */
+  color: #000000;
+}
+
+.maintenance-manaul{
+  background: linear-gradient(to top, rgba(0,0,0,0.5)20%,rgba(0,0,0,0.5)50%), url('/public/images/1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.maintenance-manual-container {
+  width: 100%;
+}
+
+.maintenance-manual-section {
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+
+.section7 {
+  background-image: url('/public/images/3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section8 {
+  background-image: url('/public/images/5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section9 {
+  background-image: url('/public/images/4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sign-up{
+  background-image: url('/public/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.user-manual {
+  background: linear-gradient(to top, rgba(0,0,0,0.5)20%,rgba(0,0,0,0.5)50%), url('/public/images/12.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  text-align: center; /* Center text horizontally */
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-manual-container {
+  width: 100%;
+}
+
+.user-manual-section {
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+
+.section1 {
+  background-image: url('/public/images/13.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  background-size: cover; /* Ensures the background covers the entire area */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat;
+}
+
+.section2 {
+  background-image: url('/public/images/14.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section3 {
+  background-image: url('/public/images/15.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section4 {
+  background-image: url('/public/images/16.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section5 {
+  background-image: url('/public/images/17.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section6 {
+  background-image: url('/public/images/18.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.user-manual{
+  background: linear-gradient(to top, rgba(0,0,0,0.5)20%,rgba(0,0,0,0.5)50%), url('/public/images/12.jpg');
+  /*background-image: url('/public/images/12.jpg');*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
